@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: lightgrey;
+    
     height: 75px;
     width: 100%;
     position: fixed;
@@ -25,7 +25,8 @@ main {
 .sidebar {
     width: 110px;
     height: calc(100vh - 75px);
-    background-color: blue;
+    background-color: #02022e;
+    background-image: url(../img/sidebar-bg.png);
 }
 .top-sidebar {
     padding-top: 10px;
@@ -42,11 +43,16 @@ main {
     height: 120px;
     background-color: rgb(7, 93, 253);
 }
+ .menu-sidebar {
+    padding: 0;
+ }
+
+ul {
+    padding-left: 1em;
+}
 ul li {
     margin-top: 10px;
     list-style-type: none;
-    color: white;
-    padding-right: 10px;
 }
 
 
@@ -77,5 +83,18 @@ ul li {
     border-bottom: 1px solid lightgray;
   }
 
- 
- 
+
+.bottoni-topbar {
+    font-size: 10px;
+    color: white ;
+    background-color: rgba(3, 68, 187, 0.99);
+    padding: 3px;
+}
+.bottone-topbar-circle {
+    font-size: 8px;
+    padding: 6px;
+    color: white ;
+    background-color: rgba(3, 68, 187, 0.99);
+}
+
+
