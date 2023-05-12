@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header class="d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row align-items-center bg-white ">
+                <div class="col">
+                    <div class="content">
+                        <img class="desktop-logo d-none d-md-block" src="./img/logo.svg" alt="">
+                        <img class="mobile-logo d-md-none img-fluid" src="./img/mobile-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="content d-flex align-items-center">
+                        <a href="button"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
+                        <input type="text" class="form-control" id="exampleInputPassword1"
+                            placeholder="&#xf002; Prova a cercare: Lezioni di Laravel">
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="content d-flex justify-content-end align-items-center">
+                        <a class="d-none d-lg-block d-xl-block icone-1" href="#"><i class="fa-solid fa-list"
+                                style="color: #000000;"></i></a>
+                        <a class="d-none d-lg-block d-xl-block icone-1" href="#"><i class="fa-solid fa-circle-question"
+                                style="color: #000000;"></i></a>
+                        <a class="d-none d-lg-block d-xl-block icone-1" href="#"><i
+                                class="fa-solid fa-ellipsis-vertical" style="color: #000000;"></i></a>
+                        <a class="icone-1" href="#" role="button">
+
+                        </a>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle bell-style" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell" style="color: #ff810a;"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="">
+        <div class="sidebar d-flex flex-column justify-content-between">
+            <div class="top-sidebar">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a>
+                        <span>Home</span>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a>
+                        <span>Stats</span>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a>
+                        <span>Signal</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-sidebar d-flex justify-content-center">
+                <a href="#"><i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+                <span>admin</span>
+            </div>
+        </div>
+
+        <div class="content-first">
+
+            <div class="container-fluid">
+                <div class="row top-bar">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <h5 class="card-header">PROSSIME CLASSI</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dicta sit voluptatum
+                                similique rerum illum saepe neque nemo recusandae? Nesciunt omnis officiis quisquam
+                                quibusdam temporibus ab doloribus eveniet dicta id!</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-header">F.A.Q.</h5>
+                        <div class="card-body">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item's accordion body.</strong> It is hidden by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item's accordion body.</strong> It is hidden by
+                                            default, until the collapse plugin adds the appropriate classes that we use
+                                            to style each element. These classes control the overall appearance, as well
+                                            as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or overriding our default variables. It's also worth noting
+                                            that just about any HTML can go within the <code>.accordion-body</code>,
+                                            though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <h5 class="card-header">F.A.Q.</h5>
+                        <div class="card-body ">
+                            <div class="content">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Default checkbox
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Checked checkbox
+                                    </label>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="content-img d-flex justify-content-center">
+                        <div class="card" style="width: 25rem;">
+                            <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                            <div class="card" style="width: 25rem;">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">An item</li>
+                                    <li class="list-group-item">A second item</li>
+                                    <li class="list-group-item">A third item</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+    </main>
+
+</body>
+
+</html>
